@@ -1,8 +1,7 @@
-import { HashRouter, Route, Routes } from "react-router-dom";
-import { Product, Favorites, Login, ProductDetail } from "./pages";
+import { HashRouter, Route, Routes }from "react-router-dom";
+import { Product, Favorites, Login, ProductDetail }from "./pages"
 import{LoadingScreen}from "./components"
 import { Container } from "react-bootstrap";
-
 import "./App.css";
 import { useSelector } from "react-redux";
 
