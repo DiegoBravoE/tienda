@@ -3,7 +3,7 @@ import {  Home,Purchases , Login, ProductDetail }from "./pages";
 import{LoadingScreen}from "./components";
 import { Container } from "react-bootstrap";
 import { useSelector } from "react-redux";
-
+import './App.css';
 function App() {
 
 const isLoading=useSelector(state=>state.isLoading)
